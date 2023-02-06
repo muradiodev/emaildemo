@@ -3,7 +3,7 @@ In this project, I have worked on sending mails via e-mail to other accounts usi
 
 How to work with this project :
 
-1- Download the entire project, unzip it and import it in Eclipse J2EE.
+1- Download the entire project, unzip it and import it in IDE.
 
 2- Install all dependencies in the pom.xml file.
 
