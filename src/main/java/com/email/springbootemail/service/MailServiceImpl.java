@@ -12,9 +12,10 @@ import org.springframework.stereotype.Service;
 
 
 @Service
+@RequiredArgsConstructor
 public class MailServiceImpl implements MailService {
-    @Autowired
-    private JavaMailSender javaMailSender;
+
+    private final JavaMailSender javaMailSender;
 
     @Override
     public void sendEmail(Mail mail) {
